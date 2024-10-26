@@ -1743,9 +1743,6 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
 
 .top-logos {
   position: relative !important;
@@ -1753,4 +1750,9 @@ section,
 
 .img-fluid {
   border-radius: 25px;
+}
+
+.company-group {
+  margin-top: 15px;
+  padding: 20px;
 }
