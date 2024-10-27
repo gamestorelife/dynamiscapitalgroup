@@ -1031,7 +1031,6 @@ section,
 }
 
 .services .service-item .icon {
-  background: var(--accent-color);
   color: var(--contrast-color);
   margin: 0 auto;
   width: 64px;
@@ -1755,4 +1754,16 @@ section,
 .company-group {
   margin-bottom: 15px;
   padding: 20px;
+}
+
+.service-image {
+  width: 250%;
+}
+
+.londoncolor {
+  background: linear-gradient(to bottom, #0c0c29, #727171);
+  border-radius: 6px;
+}
+.elitestate {
+  height: 120%;
 }
