@@ -13,7 +13,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root {
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+  --background-color: #d3d3d3; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #151515; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #8b0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -855,7 +855,7 @@ section,
 }
 
 .hero p {
-  margin: 10px 0 0 0;
+  margin: 10px 0 70px 0;
   font-size: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
@@ -1766,4 +1766,16 @@ section,
 }
 .elitestate {
   height: 120%;
+}
+
+.swiper-slide {
+  width: 236 !important;
+  height: 350px !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  display: none !important;
 }
