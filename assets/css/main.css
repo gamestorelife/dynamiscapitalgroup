@@ -138,6 +138,14 @@ h6 {
   }
 }
 
+/* For mobile devices (max-width: 767px) */
+@media (max-width: 767px) {
+  span,
+  p {
+    font-size: 14px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -1012,7 +1020,6 @@ section,
 }
 
 .features .features-item p {
-  font-size: 15px;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
   margin: 0;
 }
