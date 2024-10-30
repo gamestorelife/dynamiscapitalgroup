@@ -1761,8 +1761,8 @@ section,
 }
 
 .londoncolor {
-  background: linear-gradient(to bottom, #0c0c29, #727171);
   border-radius: 6px;
+  height: 130%;
 }
 .elitestate {
   height: 120%;
